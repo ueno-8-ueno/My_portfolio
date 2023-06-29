@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Skills from '../components/Skills.vue';
 import Profile from '../components/Profile.vue';
+import Works from '../components/Works.vue';
 </script>
 
 <template>
@@ -23,7 +24,7 @@ import Profile from '../components/Profile.vue';
 
     <div class="section-box">
       <h2 class="section-title">Works</h2>
-      <h1>Coming soon...</h1>
+      <Works></Works>
     </div>
 
   </main>
