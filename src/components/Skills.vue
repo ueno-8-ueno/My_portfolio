@@ -123,7 +123,7 @@ const frameworkList = ref(frameworkListInit);
                     <!--以下, ダイアログエリア-->
                     <v-dialog v-model="languageItem.dialog" max-width="500">
                         <v-card>
-                        <v-row>
+                        <v-row no-gutters>
                             <v-col cols="12">
                                 <v-card color="#E0F2F1" elevation="5">
                                     <v-card-title class="dialig-title">
@@ -164,7 +164,7 @@ const frameworkList = ref(frameworkListInit);
                     <!--以下, ダイアログエリア-->
                     <v-dialog v-model="frameworkItem.dialog" max-width="500">
                         <v-card>
-                        <v-row>
+                        <v-row no-gutters>
                             <v-col cols="12">
                                 <v-card color="#E0F2F1" elevation="5">
                                     <v-card-title class="dialig-title">

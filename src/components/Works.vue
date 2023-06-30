@@ -6,11 +6,11 @@
         <div class="works-area">
 
             <!--成果物1-->
-            <v-card class="work overflow-y-auto">
+            <v-card class="work overflow-y-auto overflow-x-auto">
                 <v-card-text>関数電卓</v-card-text>
                 <v-divider class="mx-4 mb-5"></v-divider>
                     <v-row>
-                        <img src="../assets/work1.png" width="150" class="work-img">
+                        <img src="../assets/work1.png" width="200" class="work-img">
                         <ul class="work-text">
                             <li>[技術] JavaScript, HTML, CSS</li>
                             <li>初めてまともに作成した成果物</li>
@@ -21,11 +21,11 @@
             </v-card>
             
             <!--成果物2-->
-            <v-card class="work overflow-y-auto">
+            <v-card class="work overflow-y-auto overflow-x-auto">
                 <v-card-text>Shelfie</v-card-text>
                 <v-divider class="mx-4 mb-5"></v-divider>
                     <v-row>
-                        <img src="../assets/work2.png" width="150" class="work-img">
+                        <img src="../assets/work2.png" width="200" class="work-img">
                         <ul class="work-text">
                             <li>[技術] Vue.js, FastAPI, etc...</li>
                             <li>KC3Hack 2023で開発したWebアプリ</li>
@@ -36,11 +36,11 @@
             </v-card>
 
             <!--成果物3-->
-            <v-card class="work overflow-y-auto">
+            <v-card class="work overflow-y-auto overflow-x-auto">
                 <v-card-text>ポートフォリオ</v-card-text>
                 <v-divider class="mx-4 mb-5"></v-divider>
                     <v-row>
-                        <img src="../assets/work3.png" width="150" class="work-img">
+                        <img src="../assets/work3.png" width="200" class="work-img">
                         <ul class="work-text">
                             <li>[技術] Vue.js, Vuetify</li>
                             <li>本ポートフォリオサイト</li>
