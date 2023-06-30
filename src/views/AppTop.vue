@@ -2,6 +2,7 @@
 import Skills from '../components/Skills.vue';
 import Profile from '../components/Profile.vue';
 import Works from '../components/Works.vue';
+import Footer from '../components/Footer.vue';
 </script>
 
 <template>
@@ -28,6 +29,7 @@ import Works from '../components/Works.vue';
     </div>
 
   </main>
+  <Footer></Footer>
 </template>
 
 <style>

@@ -59,6 +59,7 @@
     background-color: rgba(0,0,0,0.1);
     width: 100%;
     padding: 20px;
+    margin-bottom: 50px;
     border-radius: 5px;
 }
 
