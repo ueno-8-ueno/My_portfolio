@@ -21,10 +21,10 @@ languageListInit.set(2, {
 });
 
 languageListInit.set(3, {
-    level: 3,
+    level: 4,
     name: "Java",
     about: "2022年4月にハローワールド. 大学の実習でオブジェクト指向を学んだ.",
-    level_color: "level-3",
+    level_color: "level-4",
     dialog: false,
 });
 
@@ -52,10 +52,10 @@ const languageList = ref(languageListInit);
 const frameworkListInit = new Map<number, Framework>();
 
 frameworkListInit.set(1, {
-    level: 4,
+    level: 3,
     name: "Vue.js",
     about: "2023年2月にハローワールド. フロントエンドで使用している. ハッカソンイベントにて初めて使用した.",
-    level_color: "level-4",
+    level_color: "level-3",
     dialog: false,
 });
 
@@ -76,10 +76,10 @@ frameworkListInit.set(3, {
 });
 
 frameworkListInit.set(4, {
-    level: 2,
+    level: 4,
     name: "Ruby on Rails",
-    about: "2023年6月にハローワールド. 主にバックエンドで使用している.",
-    level_color: "level-2",
+    about: "2023年6月にハローワールド. 主にバックエンドで使用している. 認証系ではdevise(gem)を利用している.",
+    level_color: "level-4",
     dialog: false,
 });
 
@@ -97,10 +97,10 @@ const frameworkList = ref(frameworkListInit);
                     <th class="level-4">Lv.4</th>
                 </thead>
                 <tr>
-                    <td>if, for文が扱えるレベル.<br>もしくはしばらく触っていない.</td>
-                    <td>リファレンス本などがあれば利用できるレベル.</td>
-                    <td>リファレンスをほとんど参照せずとも<br>任意の処理が記述できるレベル.</td>
-                    <td>問題なく日常的に利用できるレベル.<br>成果物の作成経験がある.</td>
+                    <td>習い始めたばかり<br>もしくは長らく触れていない.</td>
+                    <td>リファレンスなどがあれば<br>基本的に利用できるレベル.</td>
+                    <td>リファレンスをほとんど参照せずとも<br>基本的に利用できるレベル.</td>
+                    <td>問題なく利用でき<br>大体のエラーにも対応できるレベル.</td>
                 </tr>
             </v-table>
         </v-card>

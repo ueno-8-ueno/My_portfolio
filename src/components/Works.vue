@@ -50,6 +50,21 @@
                     </v-row>
             </v-card>
 
+            <!--成果物3-->
+            <v-card class="work overflow-y-auto overflow-x-auto">
+                <v-card-text>Eventare</v-card-text>
+                <v-divider class="mx-4 mb-5"></v-divider>
+                    <v-row>
+                        <img src="../assets/work4.png" width="200" class="work-img">
+                        <ul class="work-text">
+                            <li>[技術] Ruby on Rails, Docker, etc..</li>
+                            <li>創作者向けのイベント共有型TODOサイト<br>(過去に作成したものの拡張版)</li>
+                            <li>CRUD処理をはじめ, <br>管理者機能や検索機能などを幅広く実装</li>
+                            <li><a href="https://github.com/ueno-8-ueno/Eventare-Expansion/">コードはこちらから</a></li>
+                        </ul>
+                    </v-row>
+            </v-card>
+
         </div>
     </v-container>
 </template>
