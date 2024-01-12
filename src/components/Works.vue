@@ -10,12 +10,12 @@
                 <v-card-text>関数電卓</v-card-text>
                 <v-divider class="mx-4 mb-5"></v-divider>
                     <v-row>
-                        <img src="../assets/work1.png" width="200" class="work-img">
+                        <img src="/images/work1.png" width="200" class="work-img">
                         <ul class="work-text">
                             <li>[技術] JavaScript, HTML, CSS</li>
                             <li>初めてまともに作成した成果物</li>
                             <li>四則演算の他に様々な計算が可能</li>
-                            <li><a href="https://ueno-8-ueno.github.io/scientific_calculator/">こちらからサイトに飛べます</a></li>
+                            <li><a href="https://ueno-8-ueno.github.io/scientific_calculator/" target="_blank">こちらからサイトに飛べます</a></li>
                         </ul>
                     </v-row>
             </v-card>
@@ -25,7 +25,7 @@
                 <v-card-text>Shelfie</v-card-text>
                 <v-divider class="mx-4 mb-5"></v-divider>
                     <v-row>
-                        <img src="../assets/work2.png" width="200" class="work-img">
+                        <img src="/images/work2.png" width="200" class="work-img">
                         <ul class="work-text">
                             <li>[技術] Vue.js, FastAPI, etc...</li>
                             <li>KC3Hack 2023で開発したWebアプリ</li>
@@ -40,7 +40,7 @@
                 <v-card-text>ポートフォリオ</v-card-text>
                 <v-divider class="mx-4 mb-5"></v-divider>
                     <v-row>
-                        <img src="../assets/work3.png" width="200" class="work-img">
+                        <img src="/images/work3.png" width="200" class="work-img">
                         <ul class="work-text">
                             <li>[技術] Vue.js, Vuetify</li>
                             <li>本ポートフォリオサイト</li>
@@ -55,12 +55,12 @@
                 <v-card-text>Eventare</v-card-text>
                 <v-divider class="mx-4 mb-5"></v-divider>
                     <v-row>
-                        <img src="../assets/work4.png" width="200" class="work-img">
+                        <img src="/images/work4.png" width="200" class="work-img">
                         <ul class="work-text">
                             <li>[技術] Ruby on Rails, Docker, etc..</li>
                             <li>創作者向けのイベント共有型TODOサイト<br>(過去に作成したものの拡張版)</li>
                             <li>CRUD処理をはじめ, <br>管理者機能や検索機能などを幅広く実装</li>
-                            <li><a href="https://github.com/ueno-8-ueno/Eventare-Expansion/">コードはこちらから</a></li>
+                            <li><a href="https://github.com/ueno-8-ueno/Eventare-Expansion/" target="_blank">コードはこちらから</a></li>
                         </ul>
                     </v-row>
             </v-card>

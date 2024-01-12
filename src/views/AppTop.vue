@@ -36,7 +36,7 @@ import Footer from '../components/Footer.vue';
 .main-visual{
   width: 100%;
   height: 300px;
-  background-image: url("@/assets/penguin.png");
+  background-image: url("/images/penguin.png");
   background-size: cover;
   background-position: center;
 }

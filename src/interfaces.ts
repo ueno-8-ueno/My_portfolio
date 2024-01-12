@@ -4,6 +4,7 @@ export interface Language {
     about: string;
     level_color: string;
     dialog: boolean;
+    image: string;
 }
 
 export interface Framework {
@@ -12,4 +13,5 @@ export interface Framework {
     about: string;
     level_color: string;
     dialog: boolean;
+    image: string;
 }

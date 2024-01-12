@@ -2,7 +2,7 @@
     <v-container>
         <div class="profile-area">
             <img
-                src="../assets/icon.png"
+                src="/images/icon.png"
                 height="250"
                 width="250"
                 class="icon"

@@ -10,6 +10,7 @@ languageListInit.set(1, {
     about: "2022年4月にハローワールド. 主にフロントエンドで使用している.",
     level_color: "level-3",
     dialog: false,
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
 });
 
 languageListInit.set(2, {
@@ -18,6 +19,7 @@ languageListInit.set(2, {
     about: "2023年2月にハローワールド. 主にVue.jsで使用している.",
     level_color: "level-2",
     dialog: false,
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
 });
 
 languageListInit.set(3, {
@@ -26,6 +28,7 @@ languageListInit.set(3, {
     about: "2022年4月にハローワールド. 大学の実習でオブジェクト指向を学んだ.",
     level_color: "level-4",
     dialog: false,
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png",
 });
 
 languageListInit.set(4, {
@@ -34,6 +37,7 @@ languageListInit.set(4, {
     about: "2020年4月にハローワールド. 高校2年生からほとんど触っていない.",
     level_color: "level-1",
     dialog: false,
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/640px-Python-logo-notext.svg.png",
 });
 
 languageListInit.set(5, {
@@ -42,6 +46,7 @@ languageListInit.set(5, {
     about: "2023年5月にハローワールド. paizaラーニングにて学んだ.",
     level_color: "level-3",
     dialog: false,
+    image: "https://www.ruby-lang.org/images/header-ruby-logo.png",
 });
 
 const languageList = ref(languageListInit);
@@ -57,6 +62,7 @@ frameworkListInit.set(1, {
     about: "2023年2月にハローワールド. フロントエンドで使用している. ハッカソンイベントにて初めて使用した.",
     level_color: "level-3",
     dialog: false,
+    image: "https://assets.codepen.io/t-1003/internal/avatars/teams/default.png?fit=crop&format=auto&height=256&version=1513627136&width=256",
 });
 
 frameworkListInit.set(2, {
@@ -65,6 +71,7 @@ frameworkListInit.set(2, {
     about: "2023年2月にハローワールド. Vue.jsと共に学び始めたcssフレームワーク.",
     level_color: "level-2",
     dialog: false,
+    image: "https://cdn.vuetifyjs.com/docs/images/logos/vuetify-logo-light-atom.svg",
 });
 
 frameworkListInit.set(3, {
@@ -73,6 +80,7 @@ frameworkListInit.set(3, {
     about: "2023年2月にハローワールド. バックエンドで使用するが, ほとんど触っていない.",
     level_color: "level-1",
     dialog: false,
+    image: "https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png",
 });
 
 frameworkListInit.set(4, {
@@ -81,6 +89,7 @@ frameworkListInit.set(4, {
     about: "2023年6月にハローワールド. 主にバックエンドで使用している. 認証系ではdevise(gem)を利用している.",
     level_color: "level-4",
     dialog: false,
+    image: "https://rubyonrails.org/assets/images/logo.svg",
 });
 
 const frameworkList = ref(frameworkListInit);
@@ -109,13 +118,7 @@ const frameworkList = ref(frameworkListInit);
             <p class="skills-kinds">Languages</p>
             <v-row dense>
                 <v-col v-for="[id, languageItem] in languageList" :key="id">
-                    <!--ここから-->
-                    <img v-if="languageItem.name=='JavaScript'" src="../assets/JavaScript.png" height="80" width="80" @click="languageItem.dialog = true" class="hover_anim">
-                    <img v-else-if="languageItem.name=='TypeScript'" src="../assets/TypeScript.png" height="80" width="80" @click="languageItem.dialog = true" class="hover_anim">
-                    <img v-else-if="languageItem.name=='Java'" src="../assets/Java.png" height="80" width="60" @click="languageItem.dialog = true" class="hover_anim">
-                    <img v-else-if="languageItem.name=='Python'" src="../assets/Python.png" height="80" width="80" @click="languageItem.dialog = true" class="hover_anim">
-                    <img v-else-if="languageItem.name=='Ruby'" src="../assets/Ruby.png" height="80" width="80" @click="languageItem.dialog = true" class="hover_anim">
-                    <!--ここまでを編集(画像)-->
+                    <img v-bind:src="languageItem.image" height="80" width="80" @click="languageItem.dialog = true" class="hover_anim">
 
                     <p>{{languageItem.name}}</p>
                     <p :class="languageItem.level_color">Lv.{{ languageItem.level }}</p>
@@ -151,12 +154,7 @@ const frameworkList = ref(frameworkListInit);
             <p class="skills-kinds">Frameworks</p>
             <v-row dense>
                 <v-col v-for="[id, frameworkItem] in frameworkList" :key="id">
-                    <!--ここから-->
-                    <img v-if="frameworkItem.name=='Vue.js'" src="../assets/Vue.png" height="80" width="80" @click="frameworkItem.dialog = true" class="hover_anim">
-                    <img v-else-if="frameworkItem.name=='Vuetify'" src="../assets/Vuetify.png" height="80" width="80" @click="frameworkItem.dialog = true" class="hover_anim">
-                    <img v-else-if="frameworkItem.name=='FastAPI'" src="../assets/FastAPI.svg" height="80" width="80" @click="frameworkItem.dialog = true" class="hover_anim">
-                    <img v-else-if="frameworkItem.name=='Ruby on Rails'" src="../assets/Rails.png" height="80" width="100" @click="frameworkItem.dialog = true" class="hover_anim">
-                    <!--ここまでを編集(画像)-->
+                    <img v-bind:src="frameworkItem.image" height="80" width="80" @click="frameworkItem.dialog = true" class="hover_anim">
 
                     <p>{{frameworkItem.name}}</p>
                     <p :class="frameworkItem.level_color">Lv.{{ frameworkItem.level }}</p>

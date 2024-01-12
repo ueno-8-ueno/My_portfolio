@@ -6,7 +6,7 @@
                     Ueno's Portfolio
                 </router-link>
             </v-app-bar-title>
-            <p class="version">updated 2024/1/9</p>
+            <p class="version">updated 2024/1/12</p>
         </v-app-bar>
     </header>
 </template>
